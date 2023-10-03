@@ -1,36 +1,124 @@
-<!--This is an html 5 document-->
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>your website title</title>
-    <!-- put your css and js here -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网页</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        /* 自定义样式 */
+        .navbar {
+            background-color: #f0f0f0; /* 导航栏背景颜色 */
+        }
+        .jumbotron {
+            background-color: #e9e9e9; /* Banner背景颜色 */
+        }
+        .section-banner1 {
+            background-color: #b3e0ff; /* Section 1 Banner背景颜色 */
+            min-height: 100vh; /* 最小高度为视口高度 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333; /* 字体颜色 */
+        }
+        .section-banner2 {
+            background-color: #ffb3b3; /* Section 2 Banner背景颜色 */
+            min-height: 100vh; /* 最小高度为视口高度 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333; /* 字体颜色 */
+        }
+        .section-banner3 {
+            background-color: #c2f0c2; /* Section 3 Banner背景颜色 */
+            min-height: 100vh; /* 最小高度为视口高度 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333; /* 字体颜色 */
+        }
+        .section-content {
+            background-color: #f8f9fa; /* 内容背景颜色 */
+            text-align: center; /* 文本居中对齐 */
+            padding: 20px; /* 添加内边距 */
+            margin-top: 20px; /* 上边距 */
+        }
+    </style>
 </head>
-
 <body>
-    <!--put your main content here-->
-    <div id="wrapper">
-        <div id="banner">
-            <h1>Banner</h1>
-        </div>
-        <div id="nav">
-            <ul>
-                <li><a href="#scene01">Scene01</a></li>
-                <li><a href="#scene02">Scene02</a></li>
-                <li><a href="#scene03">Scene03</a></li>
-                <li><a href="#scene04">Scene04</a></li>
+
+<!-- 最上面的Banner -->
+<div class="jumbotron text-center py-5">
+    <h1>我的网页</h1>
+</div>
+
+<!-- 导航栏 -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">首頁</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">Section 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Section 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Section 3</a>
+                </li>
             </ul>
         </div>
-        <div id="content">
-            <section id="scene01"><h1>Scene01</h1></section>
-            <section id="scene02"><h1>Scene02</h1></section>
-            <section id="scene03"><h1>Scene03</h1></section>
-            <section id="scene04"><h1>Scene04</h1></section>
-        </div>
-        <div id="supporting">info</div>
-        <div id="footer">footer</div>
     </div>
-</body>
+</nav>
 
+<!-- Section 1 -->
+<section id="section1" class="py-5">
+    <div class="section-banner1 section-banner">
+        <h2>Section 1 Banner</h2>
+    </div>
+    <div class="container section-content">
+        <!-- Section 1 Content，没有标题 -->
+        <p>这是Section 1的内容。</p>
+    </div>
+</section>
+
+<!-- Section 2 -->
+<section id="section2" class="py-5">
+    <div class="section-banner2 section-banner">
+        <h2>Section 2 Banner</h2>
+    </div>
+    <div class="container section-content">
+        <!-- Section 2 Content，没有标题 -->
+        <p>这是Section 2的内容。</p>
+    </div>
+</section>
+
+<!-- Section 3 -->
+<section id="section3" class="py-5">
+    <div class="section-banner3 section-banner">
+        <h2>Section 3 Banner</h2>
+    </div>
+    <div class="container section-content">
+        <!-- Section 3 Content，没有标题 -->
+        <p>这是Section 3的内容。</p>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    // JavaScript代码用于在滚动时设置导航栏的粘性定位
+    window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 100) {
+            navbar.classList.add("sticky-top");
+        } else {
+            navbar.classList.remove("sticky-top");
+        }
+    });
+</script>
+</body>
 </html>
