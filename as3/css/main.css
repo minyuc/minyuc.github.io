@@ -1,1 +1,83 @@
+#section1 {
+    /* 保持不变的样式 */
+    background-image: url("https://minyuc.github.io/as3/IMG_0674.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#section2 {
+    /* 初始样式 */
+    background-image: url("https://minyuc.github.io/as3/IMG_1790.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#text-2{
+    display: grid;
+    place-items:left;
+    padding:80px;
+    text-align: center;
+}
+
+#section3 {
+    background-image: url("https://minyuc.github.io/as3/lMG_1792b1.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+#text-3{
+    display: grid;
+    place-items: center;
+    padding: 50px;
+    color: aliceblue;
+}
+
+#section4 {
+    background-image: url("https://minyuc.github.io/as3/lMG_1792b2.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#text-4{
+    display: grid;
+    place-items: center;
+    padding: 50px;
+    color: aliceblue;
+}
+
+#section5 {
+    background-image: url("https://minyuc.github.io/as3/IMG_1792b3.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#text-5{
+    display: grid;
+    place-items: center;
+    padding: 50px;
+    color: aliceblue;
+}
+
+#section6 {
+    background-image: url("https://minyuc.github.io/as3/IMG_1792b4.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 
