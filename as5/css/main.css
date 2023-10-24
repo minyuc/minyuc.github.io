@@ -1,1 +1,26 @@
+#video1, #video2 {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	top: -20vh;
+}
 
+.leading-section, .middle-section, .ending-section {
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.video-section {
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	position: relative;
+	top: 50vh;
+	left: 20vw;
+	background-color: white;
+}
