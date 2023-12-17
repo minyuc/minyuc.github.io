@@ -1,1 +1,72 @@
+<!doctype html>
+<html lang="zh-TW">
 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>高齡精神疾病患者照顧難題</title>
+</head>
+
+<body>
+    <!--前言-->
+    <div class="cover" style="height:250vh">
+        <h1><b>高齡精神疾病患者照顧難題</b></h1>
+        <div class="overlay"></div>
+    </div>
+    <div style="height:100vh;background-color:black">
+        <div class="slideanimate" style="height:100vh">
+            <p>隨著臺灣高齡化，愈來愈多精神疾病患者紛紛步入老年，我們的社會卻還沒為他們建立相應的配套措施，不只患者本人受其所苦，他們的照顧者們也同樣困於囹圄，心頭的重擔伴隨著年歲向上積累……
+            </p>
+        </div>
+    </div>
+
+
+
+    <!--照顧者們的故事-->
+
+    <!--長照服務中的隱形人-->
+
+    <!--年齡增長與精神疾病的交織-->
+
+    <!--社區式的照顧服務-->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            var winh = $(window).height();
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop();
+                $(".slideanimate").each(function () {
+                    var objpos = $(this).offset().top;
+                    if (objpos < scrolled + winh * 0.8) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
