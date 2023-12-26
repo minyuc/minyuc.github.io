@@ -1,0 +1,38 @@
+body {
+  background-color: #d9d9d9;
+  font-family: "Noto Serif TC", serif;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+  padding: 40vh 200px 50px;
+}
+#old {
+  text-align: left;
+}
+#old h3 {
+  border-radius: 20px;
+  border: 4px solid #dc9796;
+  line-height: 5;
+  text-align: center;
+}
+
+#video2 {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+#sick p {
+  text-align: left;
+}
+
+#video3 {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#v3framecol {
+  padding: 30px;
+}
