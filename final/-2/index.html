@@ -26,7 +26,7 @@
     <section id="old">
         <h3><b> 年齡增長與精神疾病的交織</b></h3>
         <p>身坐輪椅、無法進食、神智不清……想到「失能老人」時，很多人心中會浮現出這幾種形象，但其實就如同人們的生活背景百百種，高齡者失能的原因也各自相異，並非都是因為身體上的病痛或衰弱。邁入高齡後，「高齡」帶來的身體變化，以及其代表的社會意義，都會和「精神狀況」之間交互影響，產生高齡群體常見的特殊狀況。
-        <p>
+        </p>
         <div id="v2frame" style="height:500vh">
           <div class="sticky-top" style="z-index:-1">
             <video id="video2" src="https://i.imgur.com/GWQ4JPV.mp4" style="height:80vh"></video>
@@ -34,8 +34,8 @@
         </div>
         <div style="height:20vh"></div>
       </section>
-  
-      <section id=sick>
+      
+      <section id="sick">
         <h3><b>身體疾病與精神疾病</b></h3>
         <p>隨著年齡增長，有些身攜精神病的病人也會和一般高齡者一樣，開始出現身體上的病痛、失能，或得到其他慢性病（糖尿病或高血壓等），需要吃的藥和看的門診愈來愈多。而臺灣目前的醫療體系為專業分科，身兼不同病痛的病人需要分開看診和領藥，如果單一病患有辦法在同一間醫院完成全部診療，醫師們還可以共享其資訊，但在不同地方看診的病人就需要額外注意用藥之間的衝突等問題。
           <br>
@@ -47,10 +47,10 @@
         </p>
         <div style="height:20vh"></div>
         <h3><b>缺乏成就感與連帶：邁入憂鬱</b></h3>
-        <p>根據全國自殺防治中心的統計，臺灣65歲以上的自殺死亡率一直以來都是居所有年齡層的第一位，2022年65歲以上的自殺死亡率為28.4%，是第二名44歲~64歲17.9%的兩倍以上，並且在死因排名中居第12位。</p>
         <div id="v3frame" style="height:300vh">
           <div class="sticky-top" style="z-index:-1">
             <video id="video3" src="https://i.imgur.com/GVuHEsP.mp4" style="height:80vh"></video>
+            <p>根據全國自殺防治中心的統計，臺灣65歲以上的自殺死亡率一直以來都是居所有年齡層的第一位，2022年65歲以上的自殺死亡率為28.4%，是第二名44歲~64歲17.9%的兩倍以上，並且在死因排名中居第12位。</p>
           </div>
           <div style="height:50vh"></div>
           <div class="row">
@@ -62,6 +62,7 @@
             </div>
           </div>
         </div>
+        <div style="height:20vh"></div>
         <p>
           「會覺得自己沒有用、覺得我老了……」提到對高齡憂鬱症病人的觀察時，在據點和日照中心工作的宜臻Priscilla回應：「他們在以前的職場可以有某些舞台發揮，有成就感，就算是家庭主婦也看得到自己的付出與看到孩子被自己照顧慢慢長大；但當高齡者面對現在孩子也工作，甚至結婚生子有自己的生活了，開始面臨自己的身體狀況走路越來越沒辦法，就開始覺得自己沒有用，年紀越大身邊的人又一個接一個過世。」
           <br>
@@ -78,37 +79,50 @@
           在宜臻Priscilla的照顧經驗中，他發現照顧高齡者不能只看到他們「做不到」的地方，還要看到他們「做得到」的地方，例如因為高齡者使用台語較流暢，宜臻Priscilla會主動讓他們有一堂課的時間當老師教導年輕人台語；又例如讓還能自主行動的高齡者自行完成生活中的一些瑣事，像拿餐具、洗碗、盛飯、買東西找錢等。從旁安全看顧，並讓高齡者自己來，可以更有效地建立他們的自信心。另外，某些機構目前為混和障別（身障與心障），其中的人員就可以互相協助，像是宜臻Priscilla會請患有輕度失智的長者，協助扶拿拐杖走路的長者一起牽著走路；請行動較不方便但認知功能良好的長輩協助輕度失智的長輩，口頭告訴他路怎麼走、廁所與電燈在哪裡。讓他們在日常互動中互助感受到自己的被需要性及重要性。宜臻Priscilla最後說：「誰說高齡者就一定是被照顧的角色，他們也可以幫助別人！」
         </p>
       </section>
-      <script>
-      $(document).ready(function () {
-        var video2_pos = $("#v2frame").offset().top;
-        var video2_end = $("#v2frame").offset().top + $("#v2frame").height();
-        console.log(video2_end);
-        $(window).scroll(function () {
-          var scroll = $(window).scrollTop();
-          var winh = $(window).height();
-          if (scroll > video2_pos && scroll < video2_end) {
-            $("#video2")[0].play();
-          } else {
-            $("#video2")[0].pause();
-          }
+      <div style="height:20vh"></div>
+      
+      <div class="button-container">
+        <h3><b>其他高齡精神疾病病人照顧難題</b></h3>
+         <div style="height:20vh"></div>
+        <a href="https://minyuc.github.io/final/-1/">
+            <p class="button" >長照服務中的隱形人——
+          為何使用長照服務的精神病患者這麼少？</p>
+          </a>
+         <a href="https://minyuc.github.io/final/-3/">
+            <p class="button">重新想像入家式照顧服務：學習生活的能力</p>
+          </a>
+      </div>
+    <script>
+        $(document).ready(function () {
+            var video2_pos = $("#v2frame").offset().top;
+            var video2_end = $("#v2frame").offset().top + $("#v2frame").height();
+            console.log(video2_end);
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                var winh = $(window).height();
+                if (scroll > video2_pos && scroll < video2_end) {
+                    $("#video2")[0].play();
+                } else {
+                    $("#video2")[0].pause();
+                }
+            });
         });
-      });
     </script>
-      <script>
-      $(document).ready(function () {
-        var video3_pos = $("#v3frame").offset().top;
-        var video3_end = $("#v3frame").offset().top + $("#v3frame").height();
-        console.log(video3_end);
-        $(window).scroll(function () {
-          var scroll = $(window).scrollTop();
-          var winh = $(window).height();
-          if (scroll > video3_pos && scroll < video3_end) {
-            $("#video3")[0].play();
-          } else {
-            $("#video3")[0].pause();
-          }
+    <script>
+        $(document).ready(function () {
+            var video3_pos = $("#v3frame").offset().top;
+            var video3_end = $("#v3frame").offset().top + $("#v3frame").height();
+            console.log(video3_end);
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                var winh = $(window).height();
+                if (scroll > video3_pos && scroll < video3_end) {
+                    $("#video3")[0].play();
+                } else {
+                    $("#video3")[0].pause();
+                }
+            });
         });
-      });
     </script>
 </body>
 
