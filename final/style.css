@@ -4,9 +4,9 @@ body {
     font-size: 20px;
     line-height: 2;
     text-align: center;
-  }
-  
-  .cover {
+}
+
+.cover {
     background-image: url("https://i.imgur.com/o74X2Rs.jpg");
     background-size: cover;
     background-position: center center;
@@ -15,109 +15,120 @@ body {
     padding-top: 50vh;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  
-  .cover h3 {
+}
+
+.cover h3 {
     padding: 10px;
-  }
-  
-  #overlay1 {
+}
+
+#overlay1 {
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
-  }
-  
-  .slide1animate {
+}
+
+.slide1animate {
     padding: 40vh 200px 50px;
     text-align: center;
     color: white;
     width: 100%;
     visibility: hidden;
-  }
-  .slide1 {
+}
+
+.slide1 {
     animation-name: slide;
     animation-duration: 1s;
     visibility: visible;
-  }
-  
-  @keyframes slide {
+}
+
+@keyframes slide {
     0% {
-      opacity: 0;
-      transform: translateY(70%);
+        opacity: 0;
+        transform: translateY(70%);
     }
+
     100% {
-      opacity: 1;
-      transform: translateY(0%);
+        opacity: 1;
+        transform: translateY(0%);
     }
-  }
-  
-  #v1frame {
+}
+
+#v1frame {
     text-align: center;
     padding-top: 40vh;
     color: white;
     background-color: black;
-  }
-  
-  .right-column {
+}
+
+.right-column {
     margin-left: 45%;
     text-align: left;
-  }
-  
-  .text-box {
-    width: 80px; /* 设置方块的宽度 */
-    height: 40px; /* 设置方块的高度 */
+}
+
+.text-box {
+    width: 80px;
+    /* 设置方块的宽度 */
+    height: 40px;
+    /* 设置方块的高度 */
     background-color: #e89394;
-    color: #fff; /* 设置文字颜色为白色 */
-    text-align: center; /* 设置文字水平居中 */
-    line-height: 40px; /* 设置行高等于方块高度，使文字垂直居中 */
+    color: #fff;
+    /* 设置文字颜色为白色 */
+    text-align: center;
+    /* 设置文字水平居中 */
+    line-height: 40px;
+    /* 设置行高等于方块高度，使文字垂直居中 */
     margin-bottom: 20px;
-    border-radius: 10px; /* 圓弧半徑 */
-  }
-  
-  
-  .button-container {
-        display:flex;
-  justify-content:space-evenly;
-  align-items:center;
-   padding: 0vh 10px 50px;
-      }
-  
-  
-  .button{
-        weight:30vw; /* 設置按鈕的高度 */
-        padding: 10px; /* 設置按鈕的內邊距 */
-        background-color:#e89394; /* 設置按鈕的背景顏色 */
-        color: white; /* 設置文字顏色 */
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 5px; /* 設置按鈕的圓角 */
-   line-height: 2;
-      }
-  
-   .button:hover {
-        background-color: #444;
-        transition-duration: 0.2s;
-        color: white;
-        opacity: 1;
-      }
-  
-  #end{
-    color: #7D7D7D;
-  text-align: center;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-     padding: 0vh 200px 50px;
-  }
-  
-  .banner{
+    border-radius: 10px;
+    /* 圓弧半徑 */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0vh 10px 50px;
+}
+
+.button {
+    weight: 30vw;
+    /* 設置按鈕的高度 */
+    padding: 10px;
+    /* 設置按鈕的內邊距 */
+    background-color: #e89394;
+    /* 設置按鈕的背景顏色 */
+    color: white;
+    /* 設置文字顏色 */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    /* 設置按鈕的圓角 */
+    line-height: 2;
+}
+
+.button:hover {
+    background-color: #444;
+    transition-duration: 0.2s;
+    color: white;
+    opacity: 1;
+}
+
+#end {
+    color: #7d7d7d;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0vh 200px 50px;
+}
+
+.banner {
     font-size: 16px;
     text-align: left;
-     background-color: #33363B;
+    background-color: #33363b;
     padding: 50px 200px 50px;
-    color:white;
-  }
+    color: white;
+}
