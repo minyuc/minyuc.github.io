@@ -6,7 +6,6 @@ body {
   text-align: center;
   padding: 40vh 200px 50px;
 }
-
 #act p{
   text-align: left;
 
@@ -32,4 +31,28 @@ body {
 .right-column{
   margin-left: 55%;
   text-align: left;
+}
+
+#life h3{
+background-color: #d9d9d9;
+  width: 100vw;
+  color: #000; /* 調整文字顏色 */
+  text-align: center; /* 調整文字對齊方式 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 50px; /* 調整內邊距，以達到你想要的樣式 */
+}
+
+#trust h3{
+background-color: #d9d9d9;
+  width: 100vw;
+  color: #000; /* 調整文字顏色 */
+  text-align: center; /* 調整文字對齊方式 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 50px; /* 調整內邊距，以達到你想要的樣式 */
 }
