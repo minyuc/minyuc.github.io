@@ -48,7 +48,6 @@ align-items:center;
 .button{
       weight:30vw; /* 設置按鈕的高度 */
       padding: 10px; /* 設置按鈕的內邊距 */
-      margin:0 5px o o;
       background-color:#e89394; /* 設置按鈕的背景顏色 */
       color: white; /* 設置文字顏色 */
       text-align: center;
